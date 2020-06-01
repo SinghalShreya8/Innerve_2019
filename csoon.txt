@@ -1,0 +1,58 @@
+
+<!doctype html>
+<html>
+<head>
+<title>COMING SOON</title>
+<meta charset="UTF-8">
+<meta name="description" content="COMING SOON">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+<style type="text/css">
+body{
+     background-image: url("http://www.kabu-load.net/data/out/100/IMG_57513.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+h1{
+   text-align: center;
+   width: 100%
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 120px;
+   font-family: impact;
+   color: orange;
+   text-shadow:5px 5px 10px yellow;
+   animation-name: example;
+   animation-duration: 7s;
+   animation-delay: 2s;
+   animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@media screen and (max-width: 480px) {
+  body {
+     background-image: url("https://media1.giphy.com/media/A8NkSPltT13H2/source.gif");
+     background-color: black;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+      font-size: 80px;
+      vertical-align: center;
+height: 100%;
+  }
+}
+@keyframes example {
+  0%   {color: black;left:0px; top:0px;}
+  25%  {color: green;left:200px; top:0px;}
+  50%  {color: red;left:200px; top:0px;}
+  100% {color: orange;left:0px; top:0px;}
+}
+
+</style>
+</head>
+<body>
+<h1>
+<b>COMING SOON!</b>
+</h1>
+</body>
+</html>
